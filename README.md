@@ -32,7 +32,31 @@ hasmap. But if you want more `container` might help.
 
 ## API
 
-TODO
+### add(name, value)
+
+### get(name)
+
+### remove(name)
+
+### last()
+
+### range(name1, name2, options)
+
+### invertedRange(name1, name2, options)
+
+### at(index)
+
+### isEmpty()
+
+### iter(fn, ctx)
+
+### iterDown(fn, ctx)
+
+### loop(fn)
+
+### loopDown(fn)
+
+### loopDownUntil(fn, predicate)
 
 ## Contributing
 
