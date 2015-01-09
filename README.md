@@ -2,7 +2,7 @@
 
 [![Build Status](https://secure.travis-ci.org/stephanebachelier/container.png?branch=master)](http://travis-ci.org/stephanebachelier/container)
 
-Another hashmap like implementation
+Another javascript hashmap like implementation
 
 ## Installation
 

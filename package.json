@@ -1,7 +1,7 @@
 {
   "name": "container",
   "version": "0.0.0",
-  "description": "Another hashmap like implementation",
+  "description": "Another javascript hashmap like implementation",
   "main": "dist/container.js",
   "readmeFilename": "README.md",
   "author": {
