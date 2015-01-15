@@ -4,7 +4,7 @@ module.exports = function () {
     lib: {
       template: require('path').join(process.cwd(), './tasks/template/umd.hbs'),
       indent: '  ',
-      src: 'dist/<%= pkg.name.replace(/.js$/, "") %>.js',
+      src: 'lib/<%= pkg.name.replace(/.js$/, "") %>.js',
       dest: 'dist/<%= pkg.name.replace(/.js$/, "") %>.js',
       objectToExport: 'Hashmapper',
       deps: {
