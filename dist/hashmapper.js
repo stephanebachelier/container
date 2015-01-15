@@ -1,3 +1,7 @@
+/*! hashmapper - v0.2.2
+ *  Release on: 2015-01-15
+ *  Copyright (c) 2015 Stéphane Bachelier
+ *  Licensed MIT */
 (function (root, factory) {
   if (typeof define === 'function' && define.amd) {
     define([], factory);
@@ -8,10 +12,7 @@
   }
 }(this, function () {
   'use strict';
-  /*! hashmapper - v0.2.1
-   *  Release on: 2015-01-15
-   *  Copyright (c) 2015 Stéphane Bachelier
-   *  Licensed MIT */
+  /* jshint strict:false */
   var Hashmapper = function () {
     this._map = Object.create(null);
     this._index = [];
@@ -186,5 +187,5 @@
     }
   };
 
-  return Container;
+  return Hashmapper;
 }));
