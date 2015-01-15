@@ -8,7 +8,7 @@
   }
 }(this, function () {
   'use strict';
-  /*! hashmapper - v0.2.0
+  /*! hashmapper - v0.2.1
    *  Release on: 2015-01-15
    *  Copyright (c) 2015 Stéphane Bachelier
    *  Licensed MIT */
