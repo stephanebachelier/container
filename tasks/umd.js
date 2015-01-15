@@ -6,7 +6,7 @@ module.exports = function () {
       indent: '  ',
       src: 'dist/<%= pkg.name.replace(/.js$/, "") %>.js',
       dest: 'dist/<%= pkg.name.replace(/.js$/, "") %>.js',
-      objectToExport: 'Container',
+      objectToExport: 'Hashmapper',
       deps: {
         default: [],
         amd: [],
