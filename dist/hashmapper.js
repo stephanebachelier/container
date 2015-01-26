@@ -1,5 +1,5 @@
-/*! hashmapper - v0.2.2
- *  Release on: 2015-01-15
+/*! hashmapper - v0.2.3
+ *  Release on: 2015-01-26
  *  Copyright (c) 2015 Stéphane Bachelier
  *  Licensed MIT */
 (function (root, factory) {
@@ -54,7 +54,7 @@
     },
 
     last: function () {
-      return this._index[this._index.length - 1];
+      return this.get(this._index[this._index.length - 1]);
     },
 
     // This method return a range between name1 and name2
