@@ -1,5 +1,5 @@
-/*! hashmapper - v0.2.3
- *  Release on: 2015-01-26
+/*! hashmapper - v0.2.4
+ *  Release on: 2015-01-27
  *  Copyright (c) 2015 Stéphane Bachelier
  *  Licensed MIT */
 (function (root, factory) {
@@ -134,6 +134,10 @@
         return len >= -index ? this.get(this._index[len + index]) : null;
       }
       return 0 <= index && len > index ? this.get(this._index[index]) : null;
+    },
+
+    length: function () {
+      return this._index.length;
     },
 
     isEmpty: function () {
